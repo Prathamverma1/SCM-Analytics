@@ -3,7 +3,7 @@
 This project focuses on analyzing supply chain data to identify inefficiencies in inventory, shipments, and order fulfillment. Using Python for analysis and Tableau for visualization, the goal was to convert raw operational data into clear insights that can support better business decisions.
 
 🔗 **Tableau Dashboard**:
-[View Dashboard](https://public.tableau.com/app/profile/poojapatel26/viz/SupplyChainAnalytics_16964651727060/SupplyChainAnalytics)
+[View Dashboard](https://public.tableau.com/app/profile/pratham.verma1542/viz/SCMAnalyticsDashboard/SupplyChainAnalytics#1)
 
 ---
 
