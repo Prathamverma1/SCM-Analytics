@@ -1,93 +1,144 @@
-# Moving from Complexity to Clarity in Supply Chain
-![](https://github.com/poojapatel26/Supply-Chain-Analytics/blob/main/tableau_dashboard.png)
+# From Complexity to Clarity in Supply Chain Analytics
 
-This is a supply chain analytics project. In which conducted an analysis of supply chain inefficiencies, and developed informative dashboards to inform business stakeholders of potential issues, along with proposing strategic business enhancements.
+This project focuses on analyzing supply chain data to identify inefficiencies in inventory, shipments, and order fulfillment. Using Python for analysis and Tableau for visualization, the goal was to convert raw operational data into clear insights that can support better business decisions.
 
-**Blog Post** : [Here](https://medium.com/@poojapatel26/moving-from-complexity-to-clarity-in-supply-chain-08fe4f8eb2d2)
+🔗 **Tableau Dashboard**:
+[View Dashboard](https://public.tableau.com/app/profile/poojapatel26/viz/SupplyChainAnalytics_16964651727060/SupplyChainAnalytics)
 
-**Tableau  Dashboard Link** :  [Here](https://public.tableau.com/app/profile/poojapatel26/viz/SupplyChainAnalytics_16964651727060/SupplyChainAnalytics)
+---
 
-## Project Description :
-The project provides a real-world dataset focusing on supply chain analytics. As the main data analyst for Just In Time, you will help solve key shipment and inventory management challenges, analyze supply chain inefficiencies, and create insightful dashboards to inform business stakeholders about potential problems and propose structural business improvements.
+## Project Overview
 
-## Objective 
-In this project, my primary focus is on addressing key challenges related to shipment and inventory management within the supply chain. To achieve this goal efficiently, the project has been divided into few objectives:
+The dataset represents a real-world supply chain scenario involving orders, inventory, shipments, and fulfillment. In this project, I explored key operational challenges such as shipment delays, inventory imbalance, and fulfillment performance, and summarized the findings using interactive dashboards.
 
-## METHODOLOGY
+The analysis is structured to help business stakeholders:
 
-Business demand analysis
+* Understand current supply chain performance
+* Identify inefficiencies and bottlenecks
+* Explore data-driven improvement opportunities
 
-Requirements: Create dashboard to analyze the business problem and improve the supply chain’s efficiency
+---
 
-Method: descriptive and exploratory analysis
+## Objectives
 
-Tool used: Python (Data preprocessing, data cleaning, EDA, inventory segmentation); Tableau (Dashboard)
+* Analyze shipment and inventory-related issues
+* Identify patterns in supply, demand, and fulfillment
+* Evaluate business performance using key metrics
+* Build interactive dashboards for decision support
 
-Business Performance : 
+---
 
-=> Dashboard of overall business performance including Profit & Cost of Products, total profit, best products etc 
+## Methodology
 
-Inventory Management :
+**Analysis Type**
 
-=> Dashboard of inventory management including warehouse inventory, Supply/Demand by Product Department, Inventory Storage Cost, Most Overstock products, Most understock products etc
+* Descriptive Analysis
+* Exploratory Data Analysis (EDA)
 
-Shipment Invenstigation :
+**Tools Used**
 
-=> Dashboard of shipping management including delay shipping like % of delapy orders, overall delay evolution, shupping delay by location, Most deplayed products etc 
+* **Python**: Data preprocessing, cleaning, EDA, inventory segmentation
+* **Tableau**: Interactive dashboards and storytelling
 
-Order Fullfillment : 
+---
 
-=> Dashboard of average warehouse inventory fullfilment by Product Category
+## Dashboard Coverage
 
-Overall story of Create an interactive dashboard to summarize the research of the problem of the supply chain and suggest the solution
+### Business Performance
 
-## Data Pre-Processing & Data Cleaning 
+* Product-wise profit and cost analysis
+* Total profit and top-performing products
+* High-cost inventory identification
 
-The data pre-procesing and Data cleaning is done using Python. 
-Detailed Notebook : [Here](https://github.com/poojapatel26/Supply-Chain-Analytics/blob/main/Supply_Chain_Analytics.ipynb)
+### Inventory Management
 
-## Data Overview 
-The dataset provides three data tables including order_and_shipment, inventory and fulfillment. After examining the data fields, I noticed that the dataset generally represents the following key information
+* Supply vs demand analysis
+* Overstocked and understocked products
+* Inventory storage costs by warehouse
 
-Customer: General information about customers including identifiers and addresses
+### Shipment Analysis
 
-Order: Information about the order including date of order, product and quantity ordered, order value
+* Percentage of delayed shipments
+* Delay trends over time
+* Shipment delays by location and product
 
-Shipment: Shipping information including shipping date, shipping mode
+### Order Fulfillment
 
-Product: Specific information about the ordered item including product name, product category, product department
+* Average fulfillment time by product category
+* Warehouse-level fulfillment performance
 
-Warehouse Inventory: Information on inventory management for each product name including monthly inventory, warehouse location, storage costs, order fulfillment
+---
 
-## Key Insights 
-**1 Profit & Cost :**
-* Most Profitable Product Department
-* Most Profitable Products
-* Goods with Highest Profit Margin
-* Highest Inventory Storage Cost
+## Data Preprocessing & Cleaning
 
-**2 Inventory Analysis :**
-* Supply Vs Demand
-* Overstock Product Category :
-* Under stock Product Category :
+All preprocessing and data cleaning were performed using Python. This included handling missing values, formatting date fields, and preparing structured datasets suitable for analysis and visualization.
 
-**3 Shipment Delay Analysis:**
+---
 
-**4 Order Fulfillment Days:**
+## Dataset Overview
 
-Detailed analysis including feature metric, Key insights and suggestion can be found of medium Blog Post : [Here](https://medium.com/@poojapatel26/moving-from-complexity-to-clarity-in-supply-chain-08fe4f8eb2d2)
+The project uses three primary datasets:
 
-## Sugesstions 
+* **Orders & Shipments**
+* **Inventory**
+* **Fulfillment**
 
-**Optimize Product Inventory :**
-To improve profits and save on storage costs, we need to optimize our inventory, especially for most profitable and popular products worldwide. It is important to study demand patterns and adjust stock levels to avoid running out during peak periods and reduce excess inventory during slower times. Maintaining a reasonable buffer above expected demand during busy seasons can prevent shortages and optimize inventory expenses.
+### Key Data Dimensions
 
-**Reorganize Inventory Distribution :**
-The Fan Shop department’s inventory is insufficient compared to its demand, which may result in missed the sales opportunities. The company should take steps to increase inventory
-Consider reorganizing inventory distribution between warehouses to reduce shipment delays. Minimizing delays in highly demand products can improve customer satisfaction.
+* **Customer**: Customer identifiers and location details
+* **Orders**: Order date, product, quantity, and order value
+* **Shipments**: Shipping date, shipping mode, and delays
+* **Products**: Product name, category, and department
+* **Warehouse Inventory**: Inventory levels, storage costs, warehouse location, and fulfillment data
 
-**Marketing Strategies :**
-Focus on promoting products with the highest profit margins to increase overall revenue. Consider advertising the top products with the highest profit margins and offer targeted discounts during peak seasons to boost sales and customer engagement.
+---
 
-**Monitor Shipment Delays :**
-A further analysis is needed to identify the reasons for shipment delays and implement corrective measures to reduce them. Analyzing shipment processes and addressing potential bottlenecks can lead to improved fulfillment efficiency and customer satisfaction.
+## Key Insights
+
+### Profit & Cost Analysis
+
+* Identification of the most profitable departments and products
+* Products with the highest profit margins
+* Inventory items with the highest storage costs
+
+### Inventory Analysis
+
+* Supply vs demand imbalance across product categories
+* Overstocked and understocked product groups
+
+### Shipment Delays
+
+* Products and locations with frequent delays
+* Trends in delayed shipments
+
+---
+
+## Recommendations
+
+### Optimize Inventory Levels
+
+Adjust inventory planning for high-demand and high-profit products to reduce excess storage costs and prevent stockouts during peak demand periods.
+
+### Improve Inventory Distribution
+
+Rebalance inventory across warehouses, especially for departments with high demand but low stock, to minimize shipment delays and lost sales opportunities.
+
+### Strengthen Marketing Focus
+
+Promote products with higher profit margins and consider targeted campaigns during peak seasons to increase overall revenue.
+
+### Reduce Shipment Delays
+
+Further investigation into shipment bottlenecks is recommended to improve delivery timelines and enhance customer satisfaction.
+
+---
+
+## Learning Outcome
+
+This project helped me strengthen my understanding of:
+
+* Supply chain metrics and performance indicators
+* Practical data analysis using Python
+* Building business-focused dashboards in Tableau
+* Translating data insights into actionable recommendations
+
